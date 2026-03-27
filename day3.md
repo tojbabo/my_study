@@ -39,3 +39,16 @@ main은 병합용도로 써라
 - $git remote: 원격 저장소 별칭 보기
 - $git remote rm origin: 원격 연결 끊기
 cc4dsdf
+- -u: upstream, $git push -u origin hotfix - origin(원격 저장소)에 hotfix 브랜치가 생성됨.
+
+**원격에서 병합처리 - Pull Request(PR)**
+
+- $git branch: -r 리모트 모음 보기, -a 원격 브랜치 보기
+- $git push main --delete sub: 원격 branch 삭제 명령, 
+- $git fetch -p main: 수정사항을 다시 불러옴. *에러났을 때 해결 방법중 하나
+
+
+---
+### 가져오기
+- $git fetch: 커밋정보만 가져옴
+- $git pull (git fetch + 로컬에서 병합)
