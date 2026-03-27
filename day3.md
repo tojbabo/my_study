@@ -38,4 +38,4 @@ main은 병합용도로 써라
 - $git remote -v: 원격 연결 상태 확인
 - $git remote: 원격 저장소 별칭 보기
 - $git remote rm origin: 원격 연결 끊기
-
+cc
